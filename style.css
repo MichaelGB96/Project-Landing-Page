@@ -128,12 +128,9 @@ button {
 .testimonial {
     background-color: #E5E7EB;
     color: #1F2937;
+    font-family: Roboto, Arial;
     font-size: 36px;
     padding: 50px 300px;
-}
-
-.testimonial p {
-    font-family: Roboto, Arial;
 }
 
 .signature {
