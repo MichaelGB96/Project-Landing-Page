@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,900;1,100&display=swap');
 
 body {
     display: flex;
@@ -58,6 +58,7 @@ a {
 .bottom {
     padding: 40px 0;
     display: flex;
+    padding-bottom: 100px;
 }
 
 .left {
@@ -72,8 +73,9 @@ a {
 }
 
 img {
-    width: 30em;
+    width: 400px;
     height: auto;
+    flex-shrink: 0;
 }
 
 button {
@@ -87,20 +89,57 @@ button {
     border-radius: 8px;
 }
 
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info h2 {
+    font-size: 36px;
+    color: #1F2937;
+    margin: 55px 0;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card p {
+    max-width: 9em;
+    text-align: center;
+}
+
+.ilustration {
+    border: solid 3px #3882F6;
+    border-radius: 8%;
+    width: 140px;
+    height: 140px;
+}
 
 .testimonial {
     background-color: #E5E7EB;
+    color: #1F2937;
     font-size: 36px;
     padding: 50px 300px;
 }
 
 .testimonial p {
-    color: #1F2937;
-    font-family: Roboto, Arial; 
+    font-family: Roboto, Arial;
 }
 
 .signature {
     text-align: right;
+    font-size: 24px;
+    margin-top: -20px; 
 }
 
 .container {
@@ -114,7 +153,7 @@ button {
 }
 
 .container button {
-    border: solid #F9FAF8 0.1em;
+    border: solid #F9FAF8 0.2em;
     margin: 30px 5px;
 }
 
